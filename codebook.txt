@@ -1,0 +1,51 @@
+This codebook provides details for the variables included in the final output of the run_analysis script.
+subject: The subject who participated in the experiment. Includes all those who participated, whether in the training or test group.
+activity: A code to describe the activity that the participant engaged in that produced readings. Labels can be found in another variable, but the code is: 1 walking; 2 walking upstairs; 3 walking downstairs; 4 sitting; 5 standing; 6 laying.
+timeBodyAccelerometerMean: This variable represents the body linear acceleration 3-axial raw signal mean for X, Y, and Z respectively.
+timeGravityAccelerometerMean: This variable represents the gravity acceleration signal mean for X, Y, and Z respectively.
+timeBodyAccelerometerJerkMean: The body linear acceleration for each direction was derived in time to obtain Jerk signal mean for X, Y, and Z respectively.
+timeBodyGyroscopeMean: This variable represents the angular velocity 3-axial raw signal mean for X, Y, and Z respectively.
+timeBodyGyroscopeJerkMean: The angular velocity for each direction was derived in time to obtain Jerk signals for X, Y, and Z respectively.
+timeBodyAccelerometerMagnitudeMean: The magnitude of the body linear acceleration mean was calculated using the Euclidean norm.
+timeGravityAccelerometerMagnitudeMean: The magnitude of the gravity acceleration mean was calculated using the Euclidean norm.
+timeBodyAccelerometerJerkMagnitudeMean: The magnitude of the body linear acceleration jerk signal mean was calculated using the Euclidean norm.
+timeBodyGyroscopeMagnitudeMean: The magnitude of the angular velocity mean was calculated using the Euclidean norm.
+timeBodyGyroscopeJerkMagnitudeMean: The magnitude of the angular velocity jerk signal mean was calculated using the Euclidean norm.
+frequencyBodyAccelerometerMean: Fast Fourier Transform applied to the body linear acceleration 3-axial raw signal mean for X, Y, and Z respectively.
+frequencyBodyAccelerometerMeanFrequency: Fast Fourier Transform applied to the weighted average of the frequency components for the body linear acceleration 3-axial raw signal mean for X, Y, and Z respectively.
+frequencyBodyAccelerometerJerkMean: Fast Fourier Transform applied to the body linear acceleration jerk signal mean for X, Y, and Z respectively.
+frequencyBodyAccelerometerJerkMeanFrequency: Fast Fourier Transform applied to the weighted average of the frequency components for the body linear acceleration jerk signal mean for X, Y, and Z respectively.
+frequencyBodyGyroscopeMean: Fast Fourier Transform applied to the angular velocity 3-axial raw signal mean for X, Y, and Z respectively.
+frequencyBodyGyroscopeMeanFrequency: Fast Fourier Transform applied to the weighted average of the frequency components for the angular velocity 3-axial raw signal mean for X, Y, and Z respectively.
+frequencyBodyAccelerometerMagnitudeMean: Fast Fourier Transform applied to the magnitude of the gravity acceleration mean.
+frequencyBodyAccelerometerMagnitudeMeanFrequency: Fast Fourier Transform applied to the weighted average of the frequency components for the magnitude of the linear acceleration.
+frequencyBodyAccelerometerJerkMagnitudeMean: Fast Fourier Transform applied to the magnitude of the body linear acceleration jerk signal mean.
+frequencyBodyAccelerometerJerkMagnitudeMeanFrequency: Fast Fourier Transform applied to the weighted average of the frequency components for the magnitude of the body linear acceleration jerk signal.
+frequencyBodyGyroscopeMagnitudeMean: Fast Fourier Transform applied to the magnitude of the angular velocity mean.
+frequencyBodyGyroscopeMagnitudeMeanFrequency: Fast Fourier Transform applied to the weighted average of the frequency components for the magnitude of the angular velocity.
+frequencyBodyGyroscopeJerkMagnitudeMean: Fast Fourier Transform applied to the magnitude of the angular velocity jerk signal mean.
+frequencyBodyGyroscopeJerkMagnitudeMeanFrequency: Fast Fourier Transform applied to the weighted average of the frequency components for the magnitude of the angular velocity jerk signal.
+angle(timeBodyAccelerometerMean,gravity): an additional vector obtained by averaging the signals for the body linear acceleration 3-axial raw signal mean and gravity.
+angle(timeBodyAccelerometerJerkMean,gravityMean): an additional vector obtained by averaging the signals for the body linear acceleration jerk signal mean and gravity.
+angle(timeBodyGyroscopeMean,gravity): an additional vector obtained by averaging the signals for the angular velocity 3-axial raw signal mean and gravity.
+angle(timeBodyGyroscopeJerkMean,gravityMean): an additional vector obtained by averaging the signals for the angular velocity jerk signal mean and gravity.
+angle(X,gravityMean): an additional vector obtained by averaging the signals for the direction X and gravity. Also available for the directions Y and Z.
+timeBodyAccelerometerStdDev: This variable represents the body linear acceleration 3-axial raw signal standard deviation for X, Y, and Z respectively.
+timeGravityAccelerometerStdDev: This variable represents the gravity acceleration signal standard deviation for X, Y, and Z respectively.
+timeBodyAccelerometerJerkStdDev: The body linear acceleration for each direction was derived in time to obtain Jerk signal standard deviations for X, Y, and Z respectively
+timeBodyGyroscopeStdDev: This variable represents the angular velocity 3-axial raw signal standard deviation for X, Y, and Z respectively.
+timeBodyGyroscopeJerkStdDev: The angular velocity for each direction was derived in time to obtain Jerk signal standard deviation for X, Y, and Z respectively.
+timeBodyAccelerometerMagnitudeStdDev: The magnitude of the body linear acceleration standard deviation was calculated using the Euclidean norm.
+timeGravityAccelerometerMagnitudeStdDev: The magnitude of the gravity acceleration standard deviation was calculated using the Euclidean norm.
+timeBodyAccelerometerJerkMagnitudeStdDev: The magnitude of the body linear acceleration jerk signal standard deviation was calculated using the Euclidean norm.
+timeBodyGyroscopeMagnitudeStdDev: The magnitude of the angular velocity standard deviation was calculated using the Euclidean norm.
+timeBodyGyroscopeJerkMagnitudeStdDev: The magnitude of the angular velocity jerk signal standard deviation was calculated using the Euclidean norm.
+frequencyBodyAccelerometerStdDev: Fast Fourier Transform applied to the body linear acceleration 3-axial raw signal standard deviation for X, Y, and Z respectively.
+frequencyBodyAccelerometerJerkStdDev: Fast Fourier Transform applied to the body linear acceleration jerk signal standard deviation for X, Y, and Z respectively.
+frequencyBodyGyroscopeStdDev: Fast Fourier Transform applied to the angular velocity 3-axial raw signal standard deviation for X, Y, and Z respectively.
+frequencyBodyAccelerometerMagnitudeStdDev: Fast Fourier Transform applied to the magnitude of the gravity acceleration standard deviation.
+frequencyBodyAccelerometerJerkMagnitudeStdDev: Fast Fourier Transform applied to the magnitude of the body linear acceleration jerk signal standard deviation.
+frequencyBodyGyroscopeMagnitudeStdDev: Fast Fourier Transform applied to the magnitude of the angular velocity standard deviation.
+frequencyBodyGyroscopeJerkMagnitudeStdDev: Fast Fourier Transform applied to the magnitude of the angular velocity jerk signal standard deviation.
+activity_label: the activity being performed, in word form. There are six possible values: walking, walking upstairs, walking downstairs, sitting, standing, and laying. 
+
